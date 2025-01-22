@@ -5,6 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Home from './Views/Home/Home';
 import About from './Views/About/About';
 import './common.css';
+import Contact from './Views/Contact/Contact';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -16,6 +17,10 @@ const router = createBrowserRouter([
   {
     path: '/about',
     element: <About/>
+  },
+  {
+    path: '/contact',
+    element: <Contact/>
   }
 ])
 

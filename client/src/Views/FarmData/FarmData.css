@@ -1,0 +1,16 @@
+.farm-card{
+   border: 1px soliid #000;
+}
+
+.farmhouse-img{
+    width: 480px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.farmhouse-img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.5s;
+}

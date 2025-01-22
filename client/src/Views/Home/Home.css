@@ -1,19 +1,31 @@
 .farm-logo{
-    width: 70px;
+    width: 60px;
 }
+
+/* .title{
+    font-family: serif;
+} */
 
 .title-container{
-    background-color: #528e80;
-}
+    margin-left: 20px;
+    padding-top: 20px;
+    /* background-color: #f8f2ee; */
+} 
+
 
 .farm-img{
-    height: 310px;
-    width: 530px;
+    height: 250px;
+    width: 400px;
 }
 
 .farm1-img{
-    height: 200px;
-    width: 350px;
+    height: 170px;
+    width: 300px;
+}
+
+.farm2-img{
+    height: 120px;
+    width: 250px;
 }
 
 .feature-box{
@@ -21,7 +33,11 @@
 }
 
 .features-container{
-    background-color: #64aa9a;
+    background-color: #e2daeb;
+} 
+.farm-search-form{
+    border: 1px solid #000;
+    height: fit-content;
 }
 
 
